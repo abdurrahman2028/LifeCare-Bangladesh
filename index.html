@@ -1,0 +1,1154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Life Care - Bangladesh</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Ubuntu&family=Varela+Round&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Inter', sans-serif;
+        }
+
+        body {
+            background-color: #fafafa;
+            overflow-x: hidden;
+        }
+
+        header {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 10px;
+        }
+
+        .top-main-container {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            gap: 140px;
+            padding: 0 200px;
+            height: 973px;
+        }
+
+        @media screen and (max-width: 430px) {
+            body {
+                content: 'Hallo World';
+                background-color: #fafafa;
+                overflow-x: hidden;
+                opacity: 0;
+            }
+        }
+
+        /* TODO: top-main-content start */
+        .row-1 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 40px;
+             
+        }
+
+        .top-main-content {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 40px;
+            color: #ffffff;
+        }
+
+        .top-main-content-h1 {
+            font-size: 58px;
+            font-weight: 800;
+            line-height: 80px;
+            letter-spacing: 0.3px;
+            text-align: justify;
+        }
+
+        .top-main-content-h4 {
+            font-size: 20px;
+            font-weight: 300;
+            line-height: 30px;
+            letter-spacing: 0.2px;
+            text-align: center;
+        }
+
+        .top-main-content-cta {
+            display: flex;
+            gap: 10px;
+        }
+
+        .top-main-content-btn {
+            padding: 15px 36px 15px 36px;
+            gap: 10px;
+            border-radius: 37px;
+            color: #ffffff;
+            font-size: 14px;
+            font-weight: 700;
+            line-height: 22px;
+            letter-spacing: 0.2px;
+            text-align: center;
+        }
+        /*TODO: top-main-content end*/
+
+
+        
+        /*TODO: top-main-card start*/
+
+        .row-2 {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            margin-top: 20px;
+        }
+
+        .top-main-card {
+            box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+        }
+
+        .card-item {
+            display: flex;
+            flex-direction: column;
+            width: 328px;
+            height: 200px;
+            padding: 35px 40px 35px 40px;
+            background-color: #ffffff;
+            gap: 10px;
+        }
+
+        .top-main-card-h3 {
+            font-size: 24px;
+            font-weight: 700;
+            line-height: 32px;
+            letter-spacing: 0.1px;
+            text-align: left;
+        }
+
+        .top-main-card-p {
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 20px;
+            letter-spacing: 0.2px;
+            text-align: left;
+            color: #737373;
+        }
+
+        .top-main-card-i {
+            font-size: 35px;
+            color: #23A6F0;
+        }
+        /*TODO: top-main-card end*/
+
+
+        /* TODO: top-main-navber start*/
+        .top-main-menu-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 91px;
+            border-radius: 34px;
+            color: #ffffff;
+            padding: 0 200px;
+        }
+
+        .top-main-navber {
+            height: 58px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .navbar-brand {
+            display: flex;
+            padding: 13px 35px 13px 0px;
+            gap: 10px;
+        }
+
+        .navbar-brand-h3 {
+            font-size: 24px;
+            font-weight: 700;
+            line-height: 32px;
+            letter-spacing: 0.1px;
+            text-align: left;
+            color: #ffffff;
+        }
+
+        .navbar-collapse {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            Width: 815px;
+            Height: 58px;
+            padding: 3px 0px;
+        }
+
+        .navbar-nav-1 {
+            display: flex;
+            gap: 21px;
+        }
+
+        .navbar-nav-1-li {
+            list-style-type: none;
+        }
+
+        .navbar-nav-1-li-a {
+            font-size: 14px;
+            font-weight: 600;
+            line-height: 24px;
+            letter-spacing: 0.20000000298023224px;
+            text-align: center;
+            text-decoration: none;
+            color: #ffffff;
+        }
+
+        .navbar-nav-2 {
+            display: flex;
+            justify-content: center;
+            height: 52px;
+            gap: 50px;
+        }
+
+        .nav-item-1 {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .nav-item-1-a { 
+            font-size: 14px;
+            font-weight: 700;
+            line-height: 22px;
+            letter-spacing: 0.2px;
+            text-align: right;
+            text-decoration: none;
+            color: #ffffff;
+        }
+
+        .nav-item-2 {
+            display: flex;
+            align-items: center;
+            border-radius: 5px;
+        }
+
+        .nav-item-2-btn {
+            display: flex;
+            padding: 15px 25px 15px 25px;
+            gap: 15px;
+            border-radius: 5px;
+            background-color: #23A6F0;
+            border: none;
+            color: #ffffff;
+        }
+        /* TODO: top-main-navber end*/
+
+
+        /*TODO: cover-background start */
+        .cover-background-img {
+            height: 90%;
+            width: 100%;
+            position: absolute;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            z-index: -1;
+            background-color: rgba(0, 0, 0, 0.5); 
+            filter: brightness(50%); 
+        }
+        /*TODO: cover-background end */
+
+        /* TODO: Features start */
+        .Features-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            height: 435px;
+            width: 100%;
+            background-color: #ffffff;
+            gap: 30px;
+        }
+
+    .Features-container-item {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            flex-direction: column;
+            padding: 50px;
+            background-color: #ffffff;
+            gap: 30px;
+    }
+
+    .Features-container-item-icon {
+        font-size: 50px; 
+        color: #23A6F0;
+    }
+    /* TODO: Features end */
+
+    /* TODO: Testimonials start */
+    .Testimonials {
+        height: 900px;
+        display: flex;
+        flex-direction: column;
+        gap: 100px;
+        align-items: center;
+        justify-content: center;
+        background-color: #fafafa;
+    }
+
+    .Testimonials-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center; 
+        align-items: center;
+        width: 1050px;
+        gap: 100px;
+        background-color: #fafafa;
+    }
+    
+    .text-row-1-main {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .card-row-2 {
+        display: flex;
+        gap: 100px;
+    }
+
+    .card-row-2-main {
+        display: flex;
+        justify-content: center;
+        flex-direction: column; 
+        gap: 40px 35px;
+        text-align: center;
+        align-items: center;
+        height: 377px;
+        width: 295px;
+        background-color: #ffffff;
+        border: 1px solid #e5e5e5;
+    }
+
+    .card-row-2-photo-img {
+        border: 1px solid #e5e5e5;
+        border-radius: 50%; 
+    }
+
+    .card-row-2-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        gap: 15px;
+    }
+    /* TODO: Testimonials end */
+
+    /* TODO: content start */
+    .content {
+        height: 339px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: #fafafa;
+    }
+
+    .content-container-row-1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 175px;
+        gap: 50px 30px;
+    }
+
+    .content-container2 {
+        height: 164px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .content-container-row-2 {
+        height: 164px;
+        width: 1048px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px 50px;
+    }
+
+    .content-container-row-1-card-item {
+        height: 124px;
+        width: 1048px;
+        border-radius: 3px;
+        background: rgb(1,71,137);
+        color: #ffffff;
+        background: linear-gradient(90deg, rgba(1,71,137,1) 0%, rgba(213,20,137,1) 100%);
+    }
+
+    .content-container-row-1-card-item-flex-row {
+        height: 124px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 30px 50px;
+    }
+
+    .content-container-row-1-card-item-input-group {
+        display: flex;
+        height: 58px;
+        width: 450px;
+        border-radius: 5px;
+        overflow: hidden;
+    }
+
+    .content-container-row-1-card-item-input-group-input {
+        height: 58px;
+        width: 333px;
+        padding: 0 30px;
+        border: none;
+        outline: none;
+        border-radius: 5px 0 0 5px;
+        border: #e5e5e5 solid 1px;
+    }
+
+    .content-container-row-1-card-item-input-group-btn {
+        height: 58px;
+        width: 117px;
+        border: none;
+        outline: none;
+        border-radius: 0 5px 5px 0;
+        color: #ffffff;
+        background-color: #23A6F0;
+        border: #e5e5e5 solid 1px;
+    }
+    /* TODO: content end */
+
+    /* TODO: pricing start  */
+    .pricing {
+        height: 1132px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #fafafa;
+    }
+    
+    .pricing-container {
+        width: 1050px;
+        height: 1116px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 112px 0;
+        gap: 140px;
+    }
+
+    .pricing-row1 {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .pricing-row2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 705px;
+        gap: 1px;
+    }
+
+    .pricing-row2-card-1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 35px 0;
+        height: 665px;
+        width: 327px;
+        background-color: #ffffff;
+        border-radius: 5px;
+        padding: 370px 0;
+        border: #23A6F0 1px solid;
+    }
+
+    .pricing-top {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 35px 0;
+    }
+
+    .pricing-service-list {
+        display: flex;
+        flex-direction: column;
+        gap: 15px 0;
+    }
+
+    .pricing-service-list-item {
+        display: flex;
+        align-items: center;
+        gap: 0 10px;
+        text-align: left;
+    }
+    
+    .pricing-service-list-item-i {
+        color: #2dc071; 
+        font-size: 32px;
+    }
+
+    .pricing-service-list-item-h6 {
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+    .pricing-btn {
+        color: #ffffff;
+        background-color: #23A6F0;
+        padding: 15px 80px;
+        border: none;
+        border-radius: 5px;
+    }
+
+     /* TODO: pricing end  */
+
+     /* TODO: contact start  */
+     .contact {
+        height: 1223px;
+        width: 100%;
+        background-color: #fafafa;
+        display: flex;
+        justify-content: center;
+        color: #fff;
+     }
+
+    .contact-container1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: #252b42;
+        width: 100%;
+        height: 807px;
+    }
+
+    .contact-container2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 1050px;
+    }
+
+    .contact-row1 {
+        height: 330px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 50px 0; 
+        position: absolute;
+        top: 3915px;
+        left: 30px;
+        gap: 0px 220px;
+    }   
+    
+    .contact-row1-col1 {
+        display: flex;
+        flex-direction: column;
+        gap: 15px 0;
+        padding: 50px 0;
+    }
+
+    .contact-row2 {
+        height: 610px;
+        width: 885px;
+        background-color: #fff;
+        position: absolute;
+        top: 4380px;
+        left: 501px;
+    }
+
+    .contact-row2-container-item-media-img {
+        height: 610px;
+        width: 267px;
+    }
+
+    .contact-row2-container-item {
+        display: flex;
+    }
+
+    .contact-row2-container-item-form {
+        display: flex; 
+        flex-direction: column; 
+        gap: 20px 50px;
+        padding: 0px 50px;
+        width: 100%;
+    }
+
+    .contact-row2-container-item-form-h2 {
+        font-size: 24px;
+        color: #333;
+        margin-top: 35px;
+        text-align: center;
+    }
+
+    .contact-row2-container-item-form-form {
+        display: flex;
+        flex-direction: column;
+    }  
+    
+    label {
+        text-align: left;
+        margin: 18px 0;
+        font-weight: 600;
+        color: #000000;
+    }
+
+    input {
+        padding: 12px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        font-size: 16px;
+        background-color: #f9f9f9;
+    }
+
+    select {
+        padding: 12px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        font-size: 16px;
+        background-color: #f9f9f9;
+    }
+
+    .contact-row2-container-item-form-btn {
+        background-color: #23A6F0;
+        color: #fff;
+        border: none;
+        padding: 15px;
+        border-radius: 5px;
+        font-size: 16px;
+        cursor: pointer;
+        margin-top: 10px;
+    }
+
+     /* TODO: contact end  */
+
+     /* TODO: footer start */
+     .footer-div-2-container-row-col-h5 {
+        font-size: 17px;
+     }
+
+     .footer-div-2-container-row-col {
+        display: flex; 
+        
+        flex-direction: column; gap: 20px;
+     }
+     /* TODO: footer end */
+
+    </style>
+</head>
+<body>
+    <div class="main">
+        <header>
+            
+            <!--TODO: cover-background-main start -->
+            <div class="cover-background-main">
+                <div class="img">
+                    <img class="cover-background-img" src="./img/hero-cover.jpg" alt="">
+                </div>
+            </div>
+            <!--TODO: cover-background-main end -->
+
+            <div class="top-main-menu-container">
+                <!--TODO: top-main-navber start -->
+                <div class="top-main-navber">
+                    <div class="navbar-brand"> 
+                        <h3 class="navbar-brand-h3">BrandName</h3> 
+                    </div>
+
+                    <div class="navbar-collapse">
+                        <div class="navbar-nav-1">
+                            <li class="navbar-nav-1-li"><a class="navbar-nav-1-li-a" href="#">Home</a></li>
+                            <li class="navbar-nav-1-li"><a class="navbar-nav-1-li-a" href="#">Product</a></li>
+                            <li class="navbar-nav-1-li"><a class="navbar-nav-1-li-a" href="#">Pricing</a></li>
+                            <li class="navbar-nav-1-li"><a class="navbar-nav-1-li-a" href="#">Contact</a></li>
+                        </div>
+
+                        <div class="navbar-nav-2">
+                            <div class="nav-item-1">
+                                <a class="nav-item-1-a" href="#">Login</a>
+                            </div>
+                            <div class="nav-item-2">
+                                <button class="nav-item-2-btn"><a style="color: #ffffff; text-decoration: none;" href=""> Become a member
+                                    <i class="fas fa-arrow-right"></i> </a>
+                                </button>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+                <!--TODO: top-main-navber end -->
+            </div>
+
+
+            <div class="top-main-container">
+                <!-- TODO: top-main-content start -->
+                <div class="row-1">
+                    <div class="top-main-content">
+                        <h1 class="top-main-content-h1">We Ensure A Best <br> Insurance Service</h1>
+                        <h4 class="top-main-content-h4">We know how large objects will act, but things on a <br> small scale just do not act that way.</h4>
+                        <div class="top-main-content-cta">
+                            <button class="top-main-content-btn" style="background-color: #23a6f0; border: none;"><a style="color: #ffffff; text-decoration: none;" href=""> Get Quote Now </a></button>
+                            <button class="top-main-content-btn" style="background-color: #ffffff00; border: 1px solid #ffffff;"><a style="color: #ffffff; text-decoration: none;" href="">Learn More</a></button>
+                        </div>
+                    </div>
+                </div>
+                <!-- TODO: top-main-content end -->
+            
+
+                <!-- TODO:  top-main-card start-->
+                <div class="row-2">
+                    <div class="top-main-card">
+                        <div class="card-item">
+                            <i class="top-main-card-i fas fa-user-friends"></i>
+                            <h3 class="top-main-card-h3">Peace of Mind</h3>
+                            <p class="top-main-card-p">the quick fox jumps over the <br> lazy dog</p>
+                        </div>
+                    </div>
+                    <div class="top-main-card">
+                        <div class="card-item">
+                            <i class="top-main-card-i fas fa-user-friends"></i>
+                            <h3 class="top-main-card-h3">Set For Life</h3>
+                            <p class="top-main-card-p">the quick fox jumps over the <br> lazy dog</p>
+                        </div>
+                    </div>
+                    <div class="top-main-card">
+                        <div class="card-item" style="background-color: #23A6F0;">
+                            <i class="top-main-card-i fas fa-user-friends" style="color: #ffffff;"></i>
+                            <h3 class="top-main-card-h3" style="color: #ffffff;">100% Satisfaction</h3>
+                            <p class="top-main-card-p" style="color: #ffffff;">the quick fox jumps over the <br> lazy dog</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- TODO: top-main-card end-->
+            </div>
+        </header>
+
+        <!-- TODO: Features start-->
+        <div class="Features" style="display: flex;">
+            <div class="Features-container">
+                <div class="Features-container-item">
+                    <i class="Features-container-item-icon fa-solid fa-file"></i>
+                    <h5 class="Features-container-item-h5" style="font-size: 16px;">Peace of Mind</h5>
+                    <p class="top-main-card-p Features-1-container-item-p" style="text-align: center;">So it really behaves like neither. <br> Now we have given up. </p>
+                </div>
+                <div class="Features-container-item">
+                    <i class="Features-container-item-icon fa-regular fa-bookmark"></i>
+                    <h5 class="Features-container-item-h5" style="font-size: 16px;">Set For Life</h5>
+                    <p class="top-main-card-p Features-container-item-p" style="text-align: center;">They were used to create the <br> machines that launched. </p>
+                </div>
+                <div class="Features-container-item">
+                    <i class="Features-container-item-icon top-main-card-i fas fa-user-friends"></i>
+                    <h5 class="Features-container-item-h5" style="font-size: 16px;">100% Satisfaction</h5>
+                    <p class="top-main-card-p Features-container-item-p" style="text-align: center;">So it really behaves like neither. <br> Now we have given up. </p>
+                </div>
+            </div>
+        </div>
+        <!-- TODO: Features end-->
+
+        <!-- TODO: Testimonials start-->
+        <div class="Testimonials">
+            <div class="Testimonials-container">
+                <div class="text-row-1">
+                    <div class="text-row-1-main">
+                        <h2 class="h2" style="font-size: 38px;">Industry</h2>
+                        <p class="top-main-card-p" style="text-align: center;">Problems trying to resolve the conflict between <br> the two major realms of Classical physics: Newtonian mechanics </p>
+                    </div>
+                </div>
+
+                <div class="card-row-2">
+                    <!-- 1 -->
+                    <div class="card-row-2-main">
+                        <div class="card-row-2-photo">
+                            <img class="card-row-2-photo-img" src="./img/user1.jpg" alt=""> 
+                        </div>
+                        <div class="card-row-2-text">
+                            <p>Slate helps you see how <br> many more days you need <br> to work to reach your financial <br> goal for the month and year.</p>
+                            <img src="./img/stars.png" alt="">
+                        </div>
+                    </div>
+                    <!-- 2 -->
+                    <div class="card-row-2-main">
+                        <div class="card-row-2-photo">
+                            <img class="card-row-2-photo-img" src="./img/user2.jpg" alt=""> 
+                        </div>
+                        <div class="card-row-2-text">
+                            <p>Slate helps you see how <br> many more days you need <br> to work to reach your financial <br> goal for the month and year.</p>
+                            <img src="./img/stars.png" alt="">
+                        </div>
+                    </div>
+                    <!-- 3 -->
+                    <div class="card-row-2-main">
+                        <div class="card-row-2-photo">
+                            <img class="card-row-2-photo-img" src="./img/user3.jpg" alt=""> 
+                        </div>
+                        <div class="card-row-2-text">
+                            <p>Slate helps you see how <br> many more days you need <br> to work to reach your financial <br> goal for the month and year.</p>
+                            <img src="./img/stars.png" alt="">
+                        </div>
+                    </div>
+                    <!-- 3 end-- -->
+                </div>
+            </div>
+        </div>
+        <!-- TODO: Testimonials end-->
+
+        <!-- TODO: content start -->
+        <div class="content">
+            <div class="content-container1">
+                <div class="content-container-row-1">
+                    <div class="content-container-row-1-img1">
+                        <img class="content-container-row-1-img" src="./img/col-md-2.png" alt="">
+                    </div>
+                    <div class="content-container-row-1-img2">
+                        <img class="content-container-row-1-img" src="./img/col-md-2 (0).png" alt="">
+                    </div>
+                    <div class="content-container-row-1-img3">
+                        <img class="content-container-row-1-img" src="./img/col-md-2 (1).png" alt="">
+                    </div>
+                    <div class="content-container-row-1-img4">
+                        <img class="content-container-row-1-img" src="./img/col-md-2 (2).png" alt="">
+                    </div>
+                    <div class="content-container-row-1-img5">
+                        <img class="content-container-row-1-img" src="./img/col-md-2 (3).png" alt="">
+                    </div>
+                    <div class="content-container-row-1-img6">
+                        <img class="content-container-row-1-img" src="./img/col-md-2 (4).png" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="content-container2">
+                <div class="content-container-row-2">
+                    <div class="content-container-row-1-card-item">
+                        <div class="content-container-row-1-card-item-flex-row">
+                            <h3 class="top-main-card-h3">Subscribe For Latest <br> Newsletter</h3>
+                            <div class="content-container-row-1-card-item-input">
+                                <div class="content-container-row-1-card-item-input-group">
+                                    <input class="content-container-row-1-card-item-input-group-input" type="text" placeholder="Your Email">
+                                    <a style="cursor: pointer; color: #ffffff; text-decoration: none;" href=""><input class="content-container-row-1-card-item-input-group-btn" type="button" value="Subscribe"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- TODO: content end -->
+
+        <!-- TODO: pricing start -->
+        <div class="pricing">
+            <div class="pricing-container">
+                <div class="pricing-row1" style="margin-top: 40px;">
+                    <h2 class="h2" style="font-size: 38px; text-align: center;">Pricing</h2>
+                    <p class="top-main-card-p" style="text-align: center;">Problems trying to resolve the conflict between <br> the two major realms of Classical physics: Newtonian mechanics </p>
+                </div>
+                <div class="pricing-row2">
+                    <div class="pricing-row2-card-1" >
+                        <div class="pricing-top">
+                            <h3 style="font-size: 20px;">FREE</h3>
+                            <h5 style="color: #737373; font-size: 16px;">Organize across all <br> apps by hand</h5>
+                            <div style="display: flex; gap: 10px; text-align: left; color: #23A6F0;">
+                                <h2 style="font-size: 38px;">0</h2>
+                                <div >
+                                    <h3>$</h3>
+                                    <h5 style="color: #8ec2f2;">Per Month</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pricing-service-list">
+                            <div class="pricing-service-list-item">
+                                <i class="pricing-service-list-item-i fa-solid fa-circle-check"></i>
+                                <h6 class="pricing-service-list-item-h6">Unlimited product updates</h6>
+                            </div>
+                            <div class="pricing-service-list-item">
+                                <i class="pricing-service-list-item-i fa-solid fa-circle-check"></i>
+                                <h6 class="pricing-service-list-item-h6">Unlimited product updates</h6>
+                            </div>
+                            <div class="pricing-service-list-item">
+                                <i class="pricing-service-list-item-i fa-solid fa-circle-check"></i>
+                                <h6 class="pricing-service-list-item-h6">Unlimited product updates</h6>
+                            </div>
+                            <div class="pricing-service-list-item">
+                                <i class="pricing-service-list-item-i fa-solid fa-circle-check"></i>
+                                <h6 class="pricing-service-list-item-h6">Unlimited product updates</h6>
+                            </div>
+                            <div class="pricing-service-list-item">
+                                <i class="pricing-service-list-item-i fa-solid fa-circle-check"></i>
+                                <h6 class="pricing-service-list-item-h6">Unlimited product updates</h6>
+                            </div>
+                            <div class="pricing-service-list-item">
+                                <i class="pricing-service-list-item-i fa-solid fa-circle-check" style="color: #BDBDBD;"></i>
+                                <h6 class="pricing-service-list-item-h6">1GB  Cloud storage</h6>
+                            </div>
+                            <div class="pricing-service-list-item">
+                                <i class="pricing-service-list-item-i fa-solid fa-circle-check" style="color: #BDBDBD;"></i>
+                                <h6 class="pricing-service-list-item-h6">Email and community <br> support</h6>
+                            </div>
+                        </div>
+                        <div class="pricing-btn-div">
+                            <button class="pricing-btn"><a style="color: #ffffff; text-decoration: none;" href="">Try for free</a></button>
+                        </div>
+                    </div>
+                    <div class="pricing-row2-card-1" style="background-color: #252b42; color: #ffffff; margin-top: -40px;  padding: 390px 0;">
+                        <div class="pricing-top">
+                            <h3 style="font-size: 24px;">STANDARD</h3>
+                            <h5 style="color: #ffffff; font-size: 16px;">Organize across all <br> apps by hand</h5>
+                            <div style="display: flex; gap: 10px; text-align: left; color: #23A6F0;">
+                                <h2 style="font-size: 38px;">9.99</h2>
+                                <div >
+                                    <h3>$</h3>
+                                    <h5 style="color: #8ec2f2;">Per Month</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pricing-service-list">
+                            <div class="pricing-service-list-item">
+                                <i class="pricing-service-list-item-i fa-solid fa-circle-check"></i>
+                                <h6 class="pricing-service-list-item-h6">Unlimited product updates</h6>
+                            </div>
+                            <div class="pricing-service-list-item">
+                                <i class="pricing-service-list-item-i fa-solid fa-circle-check"></i>
+                                <h6 class="pricing-service-list-item-h6">Unlimited product updates</h6>
+                            </div>
+                            <div class="pricing-service-list-item">
+                                <i class="pricing-service-list-item-i fa-solid fa-circle-check"></i>
+                                <h6 class="pricing-service-list-item-h6">Unlimited product updates</h6>
+                            </div>
+                            <div class="pricing-service-list-item">
+                                <i class="pricing-service-list-item-i fa-solid fa-circle-check"></i>
+                                <h6 class="pricing-service-list-item-h6">Unlimited product updates</h6>
+                            </div>
+                            <div class="pricing-service-list-item">
+                                <i class="pricing-service-list-item-i fa-solid fa-circle-check"></i>
+                                <h6 class="pricing-service-list-item-h6">Unlimited product updates</h6>
+                            </div>
+                            <div class="pricing-service-list-item">
+                                <i class="pricing-service-list-item-i fa-solid fa-circle-check" style="color: #BDBDBD;"></i>
+                                <h6 class="pricing-service-list-item-h6">1GB  Cloud storage</h6>
+                            </div>
+                            <div class="pricing-service-list-item">
+                                <i class="pricing-service-list-item-i fa-solid fa-circle-check" style="color: #BDBDBD;"></i>
+                                <h6 class="pricing-service-list-item-h6">Email and community <br> support</h6>
+                            </div>
+                        </div>
+                        <div class="pricing-btn-div">
+                            <button class="pricing-btn"><a style="color: #ffffff; text-decoration: none;" href="">Try for free</a></button>
+                        </div>
+                    </div>
+                    <div class="pricing-row2-card-1" >
+                        <div class="pricing-top">
+                            <h3 style="font-size: 20px;">PREMIUM</h3>
+                            <h5 style="color: #737373; font-size: 16px;">Organize across all <br> apps by hand</h5>
+                            <div style="display: flex; gap: 10px; text-align: left; color: #23A6F0;">
+                                <h2 style="font-size: 38px;">19.99</h2>
+                                <div >
+                                    <h3>$</h3>
+                                    <h5 style="color: #8ec2f2;">Per Month</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pricing-service-list">
+                            <div class="pricing-service-list-item">
+                                <i class="pricing-service-list-item-i fa-solid fa-circle-check"></i>
+                                <h6 class="pricing-service-list-item-h6">Unlimited product updates</h6>
+                            </div>
+                            <div class="pricing-service-list-item">
+                                <i class="pricing-service-list-item-i fa-solid fa-circle-check"></i>
+                                <h6 class="pricing-service-list-item-h6">Unlimited product updates</h6>
+                            </div>
+                            <div class="pricing-service-list-item">
+                                <i class="pricing-service-list-item-i fa-solid fa-circle-check"></i>
+                                <h6 class="pricing-service-list-item-h6">Unlimited product updates</h6>
+                            </div>
+                            <div class="pricing-service-list-item">
+                                <i class="pricing-service-list-item-i fa-solid fa-circle-check"></i>
+                                <h6 class="pricing-service-list-item-h6">Unlimited product updates</h6>
+                            </div>
+                            <div class="pricing-service-list-item">
+                                <i class="pricing-service-list-item-i fa-solid fa-circle-check"></i>
+                                <h6 class="pricing-service-list-item-h6">Unlimited product updates</h6>
+                            </div>
+                            <div class="pricing-service-list-item">
+                                <i class="pricing-service-list-item-i fa-solid fa-circle-check" style="color: #BDBDBD;"></i>
+                                <h6 class="pricing-service-list-item-h6">1GB  Cloud storage</h6>
+                            </div>
+                            <div class="pricing-service-list-item">
+                                <i class="pricing-service-list-item-i fa-solid fa-circle-check" style="color: #BDBDBD;"></i>
+                                <h6 class="pricing-service-list-item-h6">Email and community <br> support</h6>
+                            </div>
+                        </div>
+                        <div class="pricing-btn-div">
+                            <button class="pricing-btn"><a style="color: #ffffff; text-decoration: none;" href="">Try for free</button></a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!-- TODO: pricing end -->
+
+        <!-- TODO: contact start -->
+        <div class="contact">
+            <div class="contact-container1">
+                <div class="contact-container2">
+                    <div class="contact-row1">
+                        <div class="contact-row1-col1">
+                            <h2 style="font-size: 47px;">We Have Branches All <br> Over The World</h2>
+                            <p style="font-size: 16px; font-weight: 200;">The gradual accumulation of information about atomic and <br> small-scale behaviour during the first quarter of the 20th <br> century, which gave some indications about how small things <br> do behave, produced an increasing confusion which was <br> Heisenberg, and Born.</p>
+                        </div>
+                        <div class="contact-row1-col2">
+                            <img src="./img/pngwing 1.png" alt="">
+                        </div>
+                    </div>
+                    <div class="contact-row2">
+                        <div class="contact-row2-container">
+                            <div class="contact-row2-container-item">
+                                <div class="contact-row2-container-item-media">
+                                    <img src="./img/contact-cover2.jpg" alt="" class="contact-row2-container-item-media-img"> 
+                                </div>
+                                <div class="contact-row2-container-item-form">
+                                    <h2 class="contact-row2-container-item-form-h2">Book Appointment</h2>
+                                    <form class="contact-row2-container-item-form-form">
+                                        <label for="name">Name *</label>
+                                        <input type="text" id="name" name="name" placeholder="Full Name *" required>
+    
+                                        <label for="email">Email address *</label>
+                                        <input type="email" id="email" name="email" placeholder="example@gmail.com" required>
+    
+                                        <label for="department" >Departement *</label>
+                                        <select id="department" name="department" required style="color: #737373;">
+                                            <option value="">Please Select</option>
+                                            <option value="sales">Sales</option>
+                                            <option value="support">Support</option>
+                                            <option value="marketing">Marketing</option>
+                                        </select>
+    
+                                        <label for="time">Time *</label>
+                                        <select id="time" name="time" required style="color: #737373;">
+                                            <option value="4pm">4:00 Available</option>
+                                            <option value="5pm">5:00 Available</option>
+                                            <option value="6pm">6:00 Available</option>
+                                        </select>
+    
+                                    </form>
+                                    <button class="contact-row2-container-item-form-btn" type="submit">Book Appointment</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- TODO: contact end -->
+
+        <!-- TODO: footer start -->
+        <div class="footer" style="height: 488px; background-color: #4073ff;">
+            <div class="footer-div-1" style="height: 142px; background-color: #fafafa; display: flex; justify-content: space-between;">
+                <div class="footer-div-1-container" style="height: 142px; width: 100%; display: flex; justify-content: space-between;">
+                    <div class="footer-div-1-container-row" style="height: 142px; width: 100%; display: flex; justify-content: space-between; align-items: center; margin: 0 250px;">
+                        <div class="footer-div-1-container-row-col1">
+                            <h3 style="font-size: 25px; font-weight: 700; margin-bottom: 5px;">Consulting Agency For Your Business</h3>
+                            <p class="top-main-card-p">the quick fox jumps over the lazy dog</p>
+                        </div>
+                        <div class="footer-div-1-container-row-col2">
+                            <button style="padding: 15px 40px; background-color: #23A6F0; border: none; border-radius: 5px; color: white;">Contact Us</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-div-2" style="height: 272px; background-color: #ffffff;">
+                <div class="footer-div-2-container" style="margin: 0 250px;">
+                    <div class="footer-div-2-container-row" style="display: flex; justify-content: space-between; align-items: center; height: 272px;">
+                        <div class="footer-div-2-container-row-col">
+                            <h5 class="footer-div-2-container-row-col-h5">Company Info</h5>
+                            <div class="footer-div-2-container-row-col-p">
+                                <p class="top-main-card-p" style="margin-bottom: 10px;">About Us</p>
+                                <p class="top-main-card-p" style="margin-bottom: 10px;">Carrier</p>
+                                <p class="top-main-card-p" style="margin-bottom: 10px;">We are hiring</p>
+                                <p class="top-main-card-p" style="margin-bottom: 10px;">Blog</p>
+                            </div>
+                        </div>
+                        <div class="footer-div-2-container-row-col">
+                            <h5 class="footer-div-2-container-row-col-h5">Legal</h5>
+                            <div class="footer-div-2-container-row-col-p">
+                                <p class="top-main-card-p" style="margin-bottom: 10px;">About Us</p>
+                                <p class="top-main-card-p" style="margin-bottom: 10px;">Carrier</p>
+                                <p class="top-main-card-p" style="margin-bottom: 10px;">We are hiring</p>
+                                <p class="top-main-card-p" style="margin-bottom: 10px;">Blog</p>
+                            </div>
+                        </div>
+                        <div class="footer-div-2-container-row-col">
+                            <h5 class="footer-div-2-container-row-col-h5">Features</h5>
+                            <div class="footer-div-2-container-row-col-p">
+                                <p class="top-main-card-p" style="margin-bottom: 10px;">Business Marketing</p>
+                                <p class="top-main-card-p" style="margin-bottom: 10px;">User Analytic</p>
+                                <p class="top-main-card-p" style="margin-bottom: 10px;">Live Chat</p>
+                                <p class="top-main-card-p" style="margin-bottom: 10px;">Unlimited Support</p>
+                            </div>
+                        </div>
+                        <div class="footer-div-2-container-row-col">
+                            <h5 class="footer-div-2-container-row-col-h5">Resources</h5>
+                            <div class="footer-div-2-container-row-col-p">
+                                <p class="top-main-card-p" style="margin-bottom: 10px;">IOS & Android</p>
+                                <p class="top-main-card-p" style="margin-bottom: 10px;">Watch a Demo</p>
+                                <p class="top-main-card-p" style="margin-bottom: 10px;">Customers</p>
+                                <p class="top-main-card-p" style="margin-bottom: 10px;">API</p>
+                            </div>
+                        </div>
+                        <div class="footer-div-2-container-row-col">
+                            <h5 class="footer-div-2-container-row-col-h5">Get In Touch</h5>
+                            <div class="footer-div-2-container-row-col-p">
+                                <p class="top-main-card-p" style="margin-bottom: 10px;"><i style="color: #23A6F0; font-size: 20px; margin-right: 10px;" class="fa-solid fa-phone"></i>(480) 555-0103</p>
+                                <p class="top-main-card-p" style="margin-bottom: 10px;"><i style="color: #23A6F0; font-size: 20px; margin-right: 10px;" class="fa-solid fa-location-dot"></i>4517 Washington Ave. </p>
+                                <p class="top-main-card-p" style="margin-bottom: 10px;"><i style="color: #23A6F0; font-size: 20px; margin-right: 10px;" class="fa-solid fa-envelope"></i>debra.holt@example.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-div-3" style="height: 74px; background-color: #fafafa;">
+                <div class="footer-div-3-container" style="margin: 0 250px;">
+                    <div class="footer-div-3-container-row" style="height: 74px; display: flex; justify-content: space-between; align-items: center;">
+                        <div class="footer-div-3-container-row-col">
+                            <p class="top-main-card-p">Made With Love By Figmaland All Right Reserved </p>
+                        </div>
+                        <div class="footer-div-3-container-row-col" style="color: #23A6F0; display: flex; gap: 20px;">
+                            <i style="font-size: 25px;" class="fa-brands fa-facebook"></i>
+                            <i style="font-size: 25px;" class="fa-brands fa-instagram"></i>
+                            <i style="font-size: 25px;" class="fa-brands fa-twitter"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- TODO: footer end -->
+
+    </div>
+</body>
+</html>
